@@ -1,0 +1,58 @@
+{
+  "_from": "github:danielweck/CSSOM#gh-pages",
+  "_id": "cssom@0.3.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cssom",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "github:danielweck/CSSOM#gh-pages",
+    "rawSpec": "github:danielweck/CSSOM#gh-pages",
+    "saveSpec": "github:danielweck/CSSOM#gh-pages",
+    "fetchSpec": null,
+    "gitCommittish": "gh-pages"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "github:danielweck/CSSOM#1ca01860ea716fa98e069074b4aaee728f793e5f",
+  "_spec": "github:danielweck/CSSOM#gh-pages",
+  "_where": "C:\\workspace\\git\\readium-js-viewer\\readium-js\\readium-shared-js",
+  "author": {
+    "name": "Nikita Vasilyev",
+    "email": "me@elv1s.ru"
+  },
+  "bugs": {
+    "url": "https://github.com/NV/CSSOM/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "CSS Object Model implementation and CSS parser",
+  "devDependencies": {
+    "jake": "~0.7.3"
+  },
+  "files": [
+    "lib/",
+    "build/"
+  ],
+  "homepage": "https://github.com/NV/CSSOM#readme",
+  "keywords": [
+    "CSS",
+    "CSSOM",
+    "parser",
+    "styleSheet"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "name": "cssom",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NV/CSSOM.git"
+  },
+  "scripts": {
+    "prepublish": "jake lib/index.js"
+  },
+  "version": "0.3.1"
+}
